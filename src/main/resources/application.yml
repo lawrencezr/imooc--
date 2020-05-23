@@ -5,3 +5,12 @@
 #    name: "/var/log/tomcat/sell.log"
 #  level:
 #    root: debug
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.3.3/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
